@@ -18,14 +18,13 @@ function TodoList () {
     }
     const taskList = todoList.map ((item, index) => {
         return(
-        <li key = {index}>{item}</li>
+        <li key = {index}><input type ='checkbox'></input>{item}</li>
         )
     })
     return(
         <div className = 'Todo'>
             <form onSubmit={handleAddTask}>
                 <input type = 'text' placeholder = 'Add a task' value = {task} onChange={handleChange} />
-                <buttton>Add</buttton>
             </form>
             <ul>{taskList}</ul>
         </div>

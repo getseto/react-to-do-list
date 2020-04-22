@@ -7,12 +7,9 @@
     border: 2px solid #fff;
     width: 165px;
   }
-  .Todo button {
-    padding: 10px;
-    font-size: 16px;
-    margin: 10px;
-    margin-right: 0px;
-    background-color: #2b802b;
-    color: #fff;
-    border: 2px solid #2b802b;
+  ul {
+    list-style-type: none;
+  }
+  .Todo form {
+    text-align: center;
   }
